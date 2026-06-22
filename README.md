@@ -34,7 +34,7 @@ Polyzos, Efstathios (2025). Raw Data for Econometric Modeling and Machine Learni
 | File name            | Description                             | Variables included               | Notes |
 |----------------------|-----------------------------------------|----------------------------------|-------|
 | `global_economy.csv` | Panel data on GDP, CPI, trade, etc.     | Country, Year, GDP, CPI, Trade…  | Extracted from World Bank WDI |
-| `financial_seasonality_dataset.csv` | Daily financial time series for selected cryptocurrencies and stocks with calendar variables and returns. | symbol, asset_class, date, year, month, weekday, open, high, low, close, volume, adjusted, log_price, log_volume, return, abs_return | Downloaded from Yahoo Finance using `tidyquant`; used for examples of seasonality in financial time series. |
+| `financial_timeseries.csv` | Daily financial time series for selected cryptocurrencies and stocks with calendar variables and returns. | symbol, asset_class, date, year, month, weekday, open, high, low, close, volume, adjusted, log_price, log_volume, return, abs_return | Downloaded from Yahoo Finance using `tidyquant`; used for examples of seasonality in financial time series. |
 | `…`                  |                                         |                                  |       |
 
 
